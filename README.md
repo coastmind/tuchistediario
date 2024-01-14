@@ -29,15 +29,18 @@ The architecture is based on google drive as file system and notebooks running o
 
 ## Instalation Guide
 
-
+1. Copy `TuChisteDiario` folder into your google Drive.
+2. Open notebooks with google colab.
 
 ## User Guide
 
-## Examples
+Into the file `chistes_con_metadatos.csv` you will find all jokes to execute this project. Its important to know about `audio_creado` `video_creado` `subs_creado` columns this columns will control generated jokes.
 
-<video width="200" controls>
-  <source src="etc/chiste-98_YrYzGNpp.mp4" type="video/mp4">
-</video>
+1. Execute `Bark.ipynb` notebook to generate an audio into `audios_chistes` folder. This notebook will generate masculine and femenine audios with `.srt` subtitles. When audio and subtitle are generated, `audio_creado` column is set to True.
+2. Execute `SadTalker.ipynb` notebook to generate videos from avatars and audios. When video is generated, `video_creado` column is set to True.
+3. Execute `createSubtitles.ipynb` notebook to add subtitles to your generated video. When video with subtitles is generated, `subs_creado` column is set to True.
+
+## Examples
 
 [![Example](https://img.youtube.com/vi/7JaV9-eCPTQ/mqdefault.jpg)](https://www.youtube.com/shorts/7JaV9-eCPTQ)
 
