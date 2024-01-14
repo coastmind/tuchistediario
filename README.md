@@ -39,3 +39,6 @@ The architecture is based on google drive as file system and notebooks running o
   <source src="etc/chiste-98_YrYzGNpp.mp4" type="video/mp4">
 </video>
 
+[![Example](https://img.youtube.com/vi/7JaV9-eCPTQ/mqdefault.jpg)](https://www.youtube.com/shorts/7JaV9-eCPTQ)
+
+
