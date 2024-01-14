@@ -1,5 +1,15 @@
 # TuChisteDiario
 
+Visit our tiktok with the content created.
+
+<a href="https://www.tiktok.com/@tuchistediario">
+<img src="etc/tiktok.webp" width="50">
+</a>
+
+### Authors:
+* [Álvaro Beltrán Camacho](https://www.linkedin.com/in/alvarobeltrancamacho/)
+* [Jesús Periñán Dávila](https://www.linkedin.com/in/jesus-perinan-davila/)
+
 ## Introduction
 
 This project presents an innovative approach to automate the creation of TikTok videos that feature animated avatars telling jokes. The process harnesses the power of several cutting-edge artificial intelligence (AI) models, each contributing uniquely to the production of engaging and entertaining content. 
