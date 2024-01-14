@@ -1,6 +1,30 @@
 # TuChisteDiario
 
-## Description
+## Introduction
+
+This project presents an innovative approach to automate the creation of TikTok videos that feature animated avatars telling jokes. The process harnesses the power of several cutting-edge artificial intelligence (AI) models, each contributing uniquely to the production of engaging and entertaining content. 
+
+### Overview of the Process
+
+1. **Voice Generation with Bark**: Initially, the project utilizes the Bark model to convert text-based jokes into realistic and expressive voiceovers. Bark is renowned for its ability to generate natural-sounding speech, making it an ideal choice for creating the audio layer of the TikToks.
+
+2. **Subtitle Generation with Whisper**: Following the voice generation, Whisper is employed to transcribe the spoken jokes into subtitles in the `.srt` format. Whisper's advanced speech recognition capabilities ensure accurate and timely subtitles, enhancing the accessibility and understanding of the content.
+
+3. **Avatar Animation with SadTalker and DALL-E 3**: The next phase involves animating avatars using SadTalker, which are then brought to life with visuals created by DALL-E 3. DALL-E 3 excels in generating unique and expressive avatars based on text descriptions, while SadTalker provides the animation framework to make these avatars narrate the jokes in a lifelike manner.
+
+4. **Video Editing and Subtitle Integration with MoviePy**: Finally, the project leverages MoviePy for video editing tasks, including the integration of subtitles. MoviePy is a flexible tool that allows for seamless merging of the audio, animated visuals, and subtitles, culminating in the final TikTok-ready video.
+
+## Technologies Used
+
+- **Bark**: An AI model for generating human-like voiceovers from text. [Learn more about Bark](https://example-link-to-bark.com).
+- **Whisper**: A state-of-the-art speech recognition system for creating accurate subtitles. [Learn more about Whisper](https://example-link-to-whisper.com).
+- **SadTalker**: An animation tool designed for bringing avatars to life in a realistic manner. [Learn more about SadTalker](https://example-link-to-sadtalker.com).
+- **DALL-E 3**: An advanced AI model by OpenAI for generating creative and detailed images from text descriptions. [Learn more about DALL-E 3](https://openai.com/dall-e-3).
+- **MoviePy**: A versatile video editing tool ideal for adding subtitles and finalizing video content. [Learn more about MoviePy](https://example-link-to-moviepy.com).
+
+## Architecture
+
+The architecture is based on google drive as file system and notebooks running on google colab in chain. These notebooks generate different files in the google drive folders that will be used by the following notebooks.
 
 <image src="etc/tuchistediario architecture.drawio.png" alt="Arquitecture">
 
@@ -10,13 +34,7 @@
 
 ## Examples
 
-Joke: - Papá, tengo una buena y una mala noticia... - Empieza por la buena, dame una alegría anda... - ¡Los airbags de tu coche funcionan muy bien!
-
 <video width="200" controls>
-  <source src="TuChisteDiario/videos_subtitulos/chiste_100.mp4" type="video/mp4">
-</video>
-
-<video width="200" controls>
-  <source src="etc/chiste_98.mp4" type="video/mp4">
+  <source src="etc/chiste-98_YrYzGNpp.mp4" type="video/mp4">
 </video>
 
