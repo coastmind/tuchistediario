@@ -16,11 +16,10 @@ This project presents an innovative approach to automate the creation of TikTok 
 
 ## Technologies Used
 
-- **Bark**: An AI model for generating human-like voiceovers from text. [Learn more about Bark](https://example-link-to-bark.com).
-- **Whisper**: A state-of-the-art speech recognition system for creating accurate subtitles. [Learn more about Whisper](https://example-link-to-whisper.com).
-- **SadTalker**: An animation tool designed for bringing avatars to life in a realistic manner. [Learn more about SadTalker](https://example-link-to-sadtalker.com).
+- **Bark**: An AI model for generating human-like voiceovers from text. [Learn more about Bark](https://github.com/suno-ai/bark).
+- **Whisper**: A state-of-the-art speech recognition system for creating accurate subtitles. [Learn more about Whisper](https://github.com/openai/whisper).
+- **SadTalker**: An animation tool designed for bringing avatars to life in a realistic manner. [Learn more about SadTalker](https://github.com/OpenTalker/SadTalker).
 - **DALL-E 3**: An advanced AI model by OpenAI for generating creative and detailed images from text descriptions. [Learn more about DALL-E 3](https://openai.com/dall-e-3).
-- **MoviePy**: A versatile video editing tool ideal for adding subtitles and finalizing video content. [Learn more about MoviePy](https://example-link-to-moviepy.com).
 
 ## Architecture
 
@@ -29,6 +28,8 @@ The architecture is based on google drive as file system and notebooks running o
 <image src="etc/tuchistediario architecture.drawio.png" alt="Arquitecture">
 
 ## Instalation Guide
+
+
 
 ## User Guide
 
