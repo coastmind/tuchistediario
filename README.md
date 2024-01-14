@@ -1,39 +1,22 @@
 # TuChisteDiario
 
-## Python env installation
+## Description
 
-### Ubuntu:
+<image src="etc/tuchistediario architecture.drawio.png" alt="Arquitecture">
 
-```
-sudo apt install ffmpeg
-sudo apt install python3.10-venv
-python3.10 -m venv .env
-source .env/bin/activate
-pip install -r requirements.txt
-```
+## Instalation Guide
 
-Then, select .env in notebooks Bark.ipynb and createSubtitles.ipynb
+## User Guide
 
-To use SadTalker we need python3.8:
+## Examples
 
-```
-sudo apt install python3.8-venv
-python3.8 -m venv .env_sadtalker
-source .env_sadtalker/bin/activate
-pip install -r requirements.txt
-pip install ipywidgets
-```
+Joke: - Papá, tengo una buena y una mala noticia... - Empieza por la buena, dame una alegría anda... - ¡Los airbags de tu coche funcionan muy bien!
 
-install in ubuntu:
+<video width="200" controls>
+  <source src="TuChisteDiario/videos_subtitulos/chiste_100.mp4" type="video/mp4">
+</video>
 
-```
-sudo apt-get update
-sudo apt install software-properties-common
-git clone https://github.com/Winfredy/SadTalker
-```
+<video width="200" controls>
+  <source src="etc/chiste_98.mp4" type="video/mp4">
+</video>
 
-If you have an error cloning SadTalker, you could have to execute:
-
-```
-git config --global http.postBuffer 524288000
-```
